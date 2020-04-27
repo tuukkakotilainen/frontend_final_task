@@ -49,6 +49,7 @@ export default function CustomerList () {
 
     return(
        <div>
+           Sort items by clikcing header.
          <ReactTable defaultPageSize={10} filterable={true} data={customers} columns={columns}/>
        </div> 
     )
